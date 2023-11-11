@@ -1,0 +1,34 @@
+.basic-tower {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    background: silver;
+    border-radius: 50%;
+}
+
+.arrow-container {
+    position: absolute;
+}
+
+.arrow {
+    width: 28px;
+    height: 4px;
+    background-color: blueviolet;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 4px;
+        background-color: aquamarine;
+        right: 0;
+    }
+}
+
+.basic-turret {
+    position: absolute;
+    width: 54px;
+    height: 20px;
+    background-color: green;
+}
+

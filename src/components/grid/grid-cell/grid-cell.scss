@@ -1,0 +1,26 @@
+.grid-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+    background: red;
+    box-shadow: 0 0 0 0.1rem black;
+    border: none;
+
+    &__land {
+        background: greenyellow;
+    }
+
+    &__free {
+        background: lightsalmon;
+    }
+
+    &__occupied {
+        background: gray;
+    }
+
+    &__range {
+        background: yellow;
+    }
+}

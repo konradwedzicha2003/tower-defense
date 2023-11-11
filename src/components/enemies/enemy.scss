@@ -1,0 +1,33 @@
+@import "../../style/animations/moves.scss";
+
+.enemy {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    background: blue;
+
+    &__health {
+        position: absolute;
+        top: calc(100% + 0.2rem);
+        background: lightgreen;
+        height: 0.4rem;
+    }
+
+    &--move-right {
+        animation: moveRight linear forwards 1s;
+    }
+    &--move-left {
+        animation: moveLeft linear forwards 1s;
+    }
+    &--move-up {
+        animation: moveUp linear forwards 1s;
+    }
+    &--move-down {
+        animation: moveDown linear forwards 1s;
+    }
+
+    &--move-init {
+        transform: translateX(-5rem);
+        animation: moveInit linear forwards 2s;
+    }
+}

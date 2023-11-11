@@ -1,0 +1,44 @@
+@keyframes moveRight {
+    from {
+        transform: translateX(0);
+    } 
+    to{
+        transform: translateX(5rem);
+    }
+}
+
+@keyframes moveDown {
+    from {
+        transform: translateY(0);
+    } 
+    to{
+        transform: translateY(5rem);
+    }
+}
+
+@keyframes moveLeft {
+    from {
+        transform: translateX(0);
+    } 
+    to{
+        transform: translateX(-5rem);
+    }
+}
+
+@keyframes moveUp {
+    from {
+        transform: translateY(0);
+    } 
+    to{
+        transform: translateY(-5rem);
+    }
+}
+
+@keyframes moveInit {
+    from {
+        transform: translateX(-5rem);
+    } 
+    to{
+        transform: translateX(5rem);
+    }
+}
